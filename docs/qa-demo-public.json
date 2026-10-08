@@ -1,0 +1,19 @@
+{
+  "version": "3.1.0",
+  "url": "https://flylabs-research.vercel.app",
+  "at": "2026-10-08T13:51:09.798Z",
+  "checks": [
+    "public onboarding and synthetic examples across four research types",
+    "source comparison, missing values, real execution trace",
+    "computational research compares data splits and preserves missing seed",
+    "preparation preserves source and starts notebook",
+    "notebook edit persists across reload with revision history",
+    "attachment upload and download preserve binary bytes",
+    "full local backup includes evidence, revisions and raw attachment",
+    "source editing keeps original revision",
+    "all routes render at mobile width without overflow",
+    "no external requests, no data POSTs, no runtime errors"
+  ],
+  "errors": [],
+  "unexpectedRequests": []
+}

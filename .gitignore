@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.data/
+imports/
+backups/
+archive/
+release/
+.vercel/
+.DS_Store
+*.log
+*.sqlite*
+*.db
+playwright-report/
+test-results/

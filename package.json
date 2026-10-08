@@ -1,0 +1,33 @@
+{
+  "name": "flylabs",
+  "version": "3.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.16.0"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "tsc --noEmit && vite build",
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "qa": "node scripts/qa.mjs",
+    "backup": "node --env-file-if-exists=.env scripts/backup.mjs backup",
+    "build:demo": "tsc --noEmit && vite build --mode demo",
+    "qa:demo": "node scripts/qa-demo.mjs"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "^22.19.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@vitejs/plugin-react": "6.1.2",
+    "typescript": "5.9.3",
+    "vite": "8.3.3"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-10-08T13:50:52.057Z",
+  "checks": [
+    "authentication gate and first account onboarding",
+    "create an experiment notebook",
+    "write experiment plans and results in separate fields",
+    "recover an unsaved tab draft after navigation",
+    "execution notes and append-only corrections",
+    "AI produces a reviewable draft and applies only selected fields",
+    "uploaded raw files preserve bytes and Jev status needs approval",
+    "signing locks the notebook; reopening preserves signed history",
+    "export notebook with source values",
+    "create email-bound editor invitation",
+    "second account joins shared lab and sees notebook",
+    "concurrent edits reject stale overwrites and preserve unsaved text",
+    "viewer role allows reading and rejects direct writes",
+    "handover includes notebook content",
+    "mobile notebook, editor and team settings fit screen",
+    "logout removes authenticated access",
+    "no browser runtime errors"
+  ],
+  "errors": [],
+  "providerMode": "Simulated transport in browser QA; actual Jev and Gemini calls recorded separately in live-ai-check.json."
+}

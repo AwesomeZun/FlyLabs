@@ -1,0 +1,519 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "sourceUrl": "https://male-cns.janelia.org/download/",
+  "rawUrl": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+  "license": "CC-BY-4.0",
+  "attribution": "FlyEM (HHMI Janelia), University of Cambridge, MRC LMB, Google Research",
+  "sourceSha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+  "sourceRows": 151856684,
+  "selection": "Top 6000 non-self directed edges with weight >= 100; weighted-outdegree seed; outgoing breadth-first traversal capped at 32 nodes. All retained edge weights are unmodified.",
+  "nodes": [
+    {
+      "id": "11546",
+      "type": "v2LN30",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "532655",
+      "type": "lLN2T_a",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10472",
+      "type": "MZ_lv2PN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10397",
+      "type": "lLN2T_a",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "23477",
+      "type": "lLN2X04",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "555318",
+      "type": "lLN2X04",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "11517",
+      "type": "lLN2T_c",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10134",
+      "type": "VL2a_adPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "520787",
+      "type": "lLN2T_a",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10321",
+      "type": "VL2p_adPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "13431",
+      "type": "lLN2T_b",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "14243",
+      "type": "lLN2T_b",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10470",
+      "type": "DC1_adPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "527470",
+      "type": "lLN2T_c",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10877",
+      "type": "VA6_adPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10702",
+      "type": "M_l2PNl20",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10524",
+      "type": "DP1l_adPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "11991",
+      "type": "lLN2X05",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10461",
+      "type": "AL-AST1",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "11721",
+      "type": "DA1_lPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "11837",
+      "type": "lLN2X05",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "12314",
+      "type": "DA1_lPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10561",
+      "type": "VA2_adPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10075",
+      "type": "DA1_lPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "11564",
+      "type": "DA1_lPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "13483",
+      "type": "DA1_lPN",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "11975",
+      "type": "lLN1_a",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10376",
+      "type": "lLN2F_b",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10133",
+      "type": "lLN2F_b",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "35196",
+      "type": "lLN2P_a",
+      "superclass": "cb_intrinsic"
+    },
+    {
+      "id": "10030",
+      "type": "pIP1",
+      "superclass": "descending_neuron"
+    },
+    {
+      "id": "10094",
+      "type": "AVLP597",
+      "superclass": "cb_intrinsic"
+    }
+  ],
+  "edges": [
+    {
+      "source": "10376",
+      "target": "11517",
+      "weight": 981
+    },
+    {
+      "source": "11517",
+      "target": "11546",
+      "weight": 953
+    },
+    {
+      "source": "10472",
+      "target": "10030",
+      "weight": 873
+    },
+    {
+      "source": "10133",
+      "target": "11517",
+      "weight": 853
+    },
+    {
+      "source": "10376",
+      "target": "527470",
+      "weight": 810
+    },
+    {
+      "source": "10133",
+      "target": "527470",
+      "weight": 808
+    },
+    {
+      "source": "527470",
+      "target": "11546",
+      "weight": 709
+    },
+    {
+      "source": "11546",
+      "target": "532655",
+      "weight": 653
+    },
+    {
+      "source": "11546",
+      "target": "10472",
+      "weight": 603
+    },
+    {
+      "source": "10133",
+      "target": "13431",
+      "weight": 593
+    },
+    {
+      "source": "532655",
+      "target": "10376",
+      "weight": 575
+    },
+    {
+      "source": "10472",
+      "target": "10094",
+      "weight": 572
+    },
+    {
+      "source": "11546",
+      "target": "10397",
+      "weight": 560
+    },
+    {
+      "source": "11546",
+      "target": "23477",
+      "weight": 555
+    },
+    {
+      "source": "10376",
+      "target": "13431",
+      "weight": 543
+    },
+    {
+      "source": "11546",
+      "target": "555318",
+      "weight": 520
+    },
+    {
+      "source": "11546",
+      "target": "11517",
+      "weight": 517
+    },
+    {
+      "source": "532655",
+      "target": "10133",
+      "weight": 511
+    },
+    {
+      "source": "10376",
+      "target": "14243",
+      "weight": 501
+    },
+    {
+      "source": "11546",
+      "target": "10134",
+      "weight": 497
+    },
+    {
+      "source": "520787",
+      "target": "10376",
+      "weight": 496
+    },
+    {
+      "source": "11546",
+      "target": "520787",
+      "weight": 480
+    },
+    {
+      "source": "11546",
+      "target": "10321",
+      "weight": 465
+    },
+    {
+      "source": "11546",
+      "target": "13431",
+      "weight": 456
+    },
+    {
+      "source": "10397",
+      "target": "10376",
+      "weight": 445
+    },
+    {
+      "source": "520787",
+      "target": "10133",
+      "weight": 422
+    },
+    {
+      "source": "10133",
+      "target": "14243",
+      "weight": 420
+    },
+    {
+      "source": "11546",
+      "target": "14243",
+      "weight": 412
+    },
+    {
+      "source": "10397",
+      "target": "10133",
+      "weight": 410
+    },
+    {
+      "source": "11546",
+      "target": "10470",
+      "weight": 407
+    },
+    {
+      "source": "10321",
+      "target": "11546",
+      "weight": 388
+    },
+    {
+      "source": "527470",
+      "target": "532655",
+      "weight": 348
+    },
+    {
+      "source": "10321",
+      "target": "35196",
+      "weight": 346
+    },
+    {
+      "source": "10134",
+      "target": "11546",
+      "weight": 344
+    },
+    {
+      "source": "11517",
+      "target": "532655",
+      "weight": 342
+    },
+    {
+      "source": "11546",
+      "target": "527470",
+      "weight": 333
+    },
+    {
+      "source": "10524",
+      "target": "11546",
+      "weight": 331
+    },
+    {
+      "source": "11546",
+      "target": "10877",
+      "weight": 327
+    },
+    {
+      "source": "11517",
+      "target": "520787",
+      "weight": 324
+    },
+    {
+      "source": "11546",
+      "target": "10702",
+      "weight": 317
+    },
+    {
+      "source": "11546",
+      "target": "10524",
+      "weight": 314
+    },
+    {
+      "source": "10133",
+      "target": "520787",
+      "weight": 314
+    },
+    {
+      "source": "11546",
+      "target": "11991",
+      "weight": 307
+    },
+    {
+      "source": "10561",
+      "target": "11546",
+      "weight": 295
+    },
+    {
+      "source": "11546",
+      "target": "10461",
+      "weight": 294
+    },
+    {
+      "source": "11517",
+      "target": "10397",
+      "weight": 294
+    },
+    {
+      "source": "527470",
+      "target": "10397",
+      "weight": 292
+    },
+    {
+      "source": "11546",
+      "target": "11721",
+      "weight": 290
+    },
+    {
+      "source": "11546",
+      "target": "11837",
+      "weight": 285
+    },
+    {
+      "source": "10376",
+      "target": "520787",
+      "weight": 285
+    },
+    {
+      "source": "10561",
+      "target": "11517",
+      "weight": 279
+    },
+    {
+      "source": "10470",
+      "target": "11517",
+      "weight": 272
+    },
+    {
+      "source": "23477",
+      "target": "35196",
+      "weight": 265
+    },
+    {
+      "source": "11991",
+      "target": "532655",
+      "weight": 264
+    },
+    {
+      "source": "10133",
+      "target": "11546",
+      "weight": 263
+    },
+    {
+      "source": "532655",
+      "target": "11991",
+      "weight": 262
+    },
+    {
+      "source": "527470",
+      "target": "520787",
+      "weight": 261
+    },
+    {
+      "source": "13431",
+      "target": "555318",
+      "weight": 261
+    },
+    {
+      "source": "11546",
+      "target": "12314",
+      "weight": 260
+    },
+    {
+      "source": "10470",
+      "target": "11546",
+      "weight": 259
+    },
+    {
+      "source": "10133",
+      "target": "532655",
+      "weight": 258
+    },
+    {
+      "source": "10376",
+      "target": "532655",
+      "weight": 256
+    },
+    {
+      "source": "11546",
+      "target": "10561",
+      "weight": 252
+    },
+    {
+      "source": "11546",
+      "target": "10075",
+      "weight": 249
+    },
+    {
+      "source": "10561",
+      "target": "527470",
+      "weight": 248
+    },
+    {
+      "source": "11546",
+      "target": "11564",
+      "weight": 247
+    },
+    {
+      "source": "11546",
+      "target": "13483",
+      "weight": 246
+    },
+    {
+      "source": "11546",
+      "target": "11975",
+      "weight": 244
+    },
+    {
+      "source": "532655",
+      "target": "35196",
+      "weight": 242
+    }
+  ]
+}

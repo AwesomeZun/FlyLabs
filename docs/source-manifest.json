@@ -1,0 +1,488 @@
+{
+  "sources": {
+    "A": "Independent FlyLabs_v1.1.0 research prototype",
+    "B": "Independent FlyLabs v2.0.0 lab workspace"
+  },
+  "files": [
+    {
+      "source": "A",
+      "relative": ".env.example",
+      "sha256": "540f03a814813f84a91b8d79bafb6112e05447768161d55c118dd0887a927d3a",
+      "bytes": 130
+    },
+    {
+      "source": "A",
+      "relative": ".gitignore",
+      "sha256": "126f285c3ac815258dd3976687a90cb2f9cadbc5eeb928a8fbe47773b0516ee3",
+      "bytes": 61
+    },
+    {
+      "source": "A",
+      "relative": "FlyLabs_v1.1.0.html",
+      "sha256": "74c114cc73dcc69a5a6aaf7e6f4d61d989a7242ba36641a56759db11c4111619",
+      "bytes": 341019
+    },
+    {
+      "source": "A",
+      "relative": "README_v1.1.0.md",
+      "sha256": "c7167c591d1019a12e1e8327b4c884536e3c879dcb664434bb47fe049700b51e",
+      "bytes": 7484
+    },
+    {
+      "source": "A",
+      "relative": "data/connectome.json",
+      "sha256": "ec61d79ed39a788ce66cd8f81acd30712053a853a4e56ffad4bb5d15440d1b8c",
+      "bytes": 9473
+    },
+    {
+      "source": "A",
+      "relative": "index.html",
+      "sha256": "9b6d5cb480ed5b1369ac133eee9531eeb6ae3dac1540a0588afe1bad7d38e1b5",
+      "bytes": 449
+    },
+    {
+      "source": "A",
+      "relative": "package-lock.json",
+      "sha256": "38205bdcbab20a30e4ca451de5189401d52b9b852c77944cc765a6771648ff14",
+      "bytes": 91038
+    },
+    {
+      "source": "A",
+      "relative": "package.json",
+      "sha256": "95ca7673ec1660f7bd9ea5dfc0bb8969ff8a349b42f2a20cf425861a966d8f80",
+      "bytes": 558
+    },
+    {
+      "source": "A",
+      "relative": "qa/html-verification_v1.1.0.json",
+      "sha256": "2a9225fecd5da5676eba352a983727d03d14fbbd1d6b085d46c2116b92e3894e",
+      "bytes": 971
+    },
+    {
+      "source": "A",
+      "relative": "qa/notebook-desktop_v1.1.0.png",
+      "sha256": "0f31836b231a42db01475c8623a90b10b8fe6b35b86fc647d2f845eeb3f802dd",
+      "bytes": 166460
+    },
+    {
+      "source": "A",
+      "relative": "qa/notebook-mobile-debug.png",
+      "sha256": "86cd2c35bb105399157930f3ef47018c0573c501a2d892bf144e26f0d2e626d6",
+      "bytes": 139839
+    },
+    {
+      "source": "A",
+      "relative": "qa/notebook-mobile_v1.1.0.png",
+      "sha256": "86cd2c35bb105399157930f3ef47018c0573c501a2d892bf144e26f0d2e626d6",
+      "bytes": 139839
+    },
+    {
+      "source": "A",
+      "relative": "scripts/build-html.mjs",
+      "sha256": "67373d7ffe7191b20a8c4d3646b2a0f68126f6d89989e5f800315822661d3e47",
+      "bytes": 1147
+    },
+    {
+      "source": "A",
+      "relative": "scripts/extract-connectome.py",
+      "sha256": "c660f18b32b034bc62717900b0d2ef0fded1197c5b526f32964fb6674381584d",
+      "bytes": 2835
+    },
+    {
+      "source": "A",
+      "relative": "scripts/verify-html.py",
+      "sha256": "66b908342bbf6f9d08f8407b12a4c8b2be8f36e5ff5c5c68c60bdf5aa7bd1fb4",
+      "bytes": 8524
+    },
+    {
+      "source": "A",
+      "relative": "scripts/verify-ui.py",
+      "sha256": "7ce864aa77377378fbbc27c5ce51a39b9e77d7c253358b01dd0701c766681be4",
+      "bytes": 11462
+    },
+    {
+      "source": "A",
+      "relative": "server/app.mjs",
+      "sha256": "272661b8e7e8a42b3bb5d14ad1973cf31cea0b250f09d6ebfa9cbb743c5af8b1",
+      "bytes": 7392
+    },
+    {
+      "source": "A",
+      "relative": "server/index.mjs",
+      "sha256": "4c19a3cc80acb1642a347df5fcdf0f9af3c3158501fe4080c51b47e496399619",
+      "bytes": 771
+    },
+    {
+      "source": "A",
+      "relative": "shared/labnotes.mjs",
+      "sha256": "2a63223258c6083694f2e51e372e148e55fbb5775f40ba315b67137526a2b0e7",
+      "bytes": 2625
+    },
+    {
+      "source": "A",
+      "relative": "shared/local-analysis.mjs",
+      "sha256": "114430a1b66c5c6eb27c112c73c2758bf79534f113b283fd402c6c98b64afc6d",
+      "bytes": 2065
+    },
+    {
+      "source": "A",
+      "relative": "shared/research.mjs",
+      "sha256": "66b8602894f90177109cdb0f9df94e06b066b120cef69ccb07f7fde34ef8c0c2",
+      "bytes": 7145
+    },
+    {
+      "source": "A",
+      "relative": "shared/router.mjs",
+      "sha256": "bec74420d1cbcadcafe79cea8e3c1c25daef571a86c983043483e133e48d7919",
+      "bytes": 1869
+    },
+    {
+      "source": "A",
+      "relative": "src/LabNotebook.jsx",
+      "sha256": "4540129ec90d2384d5606a8e650bf1c59a20a801544472bce71ad6c33c4e0cc3",
+      "bytes": 5107
+    },
+    {
+      "source": "A",
+      "relative": "src/main.jsx",
+      "sha256": "380b3a5ebbc56369275c4073476853b623f6536043526a76b3258150fbe3b0a1",
+      "bytes": 41207
+    },
+    {
+      "source": "A",
+      "relative": "src/seed.js",
+      "sha256": "fffb5f3880a851b8563525aff5dbb1bd14440ab546de2be9a6a0a4c967fc7053",
+      "bytes": 2510
+    },
+    {
+      "source": "A",
+      "relative": "src/service.js",
+      "sha256": "45be62a9dad31d0c6cb11e3659746370c8d7d86b5a66008b92582c3817a1f74e",
+      "bytes": 993
+    },
+    {
+      "source": "A",
+      "relative": "src/styles.css",
+      "sha256": "c92adfab40ee475675b15a3a18044a9d8feb4db07e7118a5c44198d2ebe00b2d",
+      "bytes": 31426
+    },
+    {
+      "source": "A",
+      "relative": "tests/api.test.mjs",
+      "sha256": "77ff9632a1bdd2200bc9d36e9fd81d8be2c2186bef54dfa8d2f86fe575b51912",
+      "bytes": 4420
+    },
+    {
+      "source": "A",
+      "relative": "tests/notebook.test.mjs",
+      "sha256": "c16e4ec593ccd67f3b67475e47be6fee06f245e225665fc9ed9b56ef1b06e581",
+      "bytes": 2273
+    },
+    {
+      "source": "A",
+      "relative": "tests/research.test.mjs",
+      "sha256": "cfcc8ef47dd417953217e29294c7eeb0f8faaa8c6c79894159a95ffa45021851",
+      "bytes": 4024
+    },
+    {
+      "source": "A",
+      "relative": "vite.config.js",
+      "sha256": "aaa1ff324b1221254c3f60456e19f025d8bff56d2af4aa143fff13695ec91f03",
+      "bytes": 179
+    },
+    {
+      "source": "B",
+      "relative": ".env.example",
+      "sha256": "f436f36095f48535f329eda0d53c3b9a15c2b3bff29cac24b6184ac26a16f604",
+      "bytes": 374
+    },
+    {
+      "source": "B",
+      "relative": ".gitignore",
+      "sha256": "cbf67fddd1c58e882566bdd5152fa1415e4d6575e10ee1ae39c9fc0aec804de7",
+      "bytes": 81
+    },
+    {
+      "source": "B",
+      "relative": "README.ko.md",
+      "sha256": "506fdec883c104318601ab9fe869e4843b43d598bda6a20671eee20c0323a48c",
+      "bytes": 5948
+    },
+    {
+      "source": "B",
+      "relative": "README.md",
+      "sha256": "d06db7fab4489eb803c8022e8d40b5c3923a5b9bcf2b9ed303e70c673cc1067d",
+      "bytes": 9129
+    },
+    {
+      "source": "B",
+      "relative": "docs/live-ai-check.json",
+      "sha256": "4800da99479d65c1783ef3f0166f9e409649ca283bdaa21717f5c3a03e5f80bd",
+      "bytes": 1928
+    },
+    {
+      "source": "B",
+      "relative": "docs/live-api-check.json",
+      "sha256": "29c2c718fb059d37fc19feb4af9cf6b58b0f5920262d27ff2224350442a6aa59",
+      "bytes": 670
+    },
+    {
+      "source": "B",
+      "relative": "docs/qa-auth.png",
+      "sha256": "97c8cd84097aca3c27889161719a659c3971757dbaa6b49b38620b2a2778805f",
+      "bytes": 67502
+    },
+    {
+      "source": "B",
+      "relative": "docs/qa-mobile-editor.png",
+      "sha256": "65b91c9802767ccc2f005d21fc4e36904925a19fece956ddc82eea3030040fe9",
+      "bytes": 87054
+    },
+    {
+      "source": "B",
+      "relative": "docs/qa-mobile-notebook.png",
+      "sha256": "72cb429262c46c2f4ffa46cbefabe007d6b21491092401f5ffe69835a21b65f5",
+      "bytes": 71071
+    },
+    {
+      "source": "B",
+      "relative": "docs/qa-notebook-results.png",
+      "sha256": "9de14667dbea946c5d4af65af3c25571338fd440ad6f2df45ff64cba4b6ffa34",
+      "bytes": 133745
+    },
+    {
+      "source": "B",
+      "relative": "docs/qa-report.json",
+      "sha256": "efe1db205bc26bc312971578c161737c2483eafe7e2ee6890d9b8ef69d9c98c2",
+      "bytes": 1155
+    },
+    {
+      "source": "B",
+      "relative": "docs/v1-baseline.json",
+      "sha256": "b28d9f3a7c6579d24f3d7d8e23138308914ba8ed4402953c08b338036790431d",
+      "bytes": 3602
+    },
+    {
+      "source": "B",
+      "relative": "docs/verification.json",
+      "sha256": "2870a29bfc117d1428aac8355d8023e5bc3acec9c76edf798a420e191e8ea725",
+      "bytes": 257
+    },
+    {
+      "source": "B",
+      "relative": "index.html",
+      "sha256": "4f8d48745ff1e8d54f77718845ba97c731883465c361e9905a546bcd72fbb7c3",
+      "bytes": 489
+    },
+    {
+      "source": "B",
+      "relative": "package-lock.json",
+      "sha256": "5f0019d0e8bf911581946385e8cf84d182c4310956f4980b465c6889e918d3f3",
+      "bytes": 30938
+    },
+    {
+      "source": "B",
+      "relative": "package.json",
+      "sha256": "7d121905ee15fe781c37dc0d67279ba179d7092d88b1734eadf9468f3a2e9c09",
+      "bytes": 758
+    },
+    {
+      "source": "B",
+      "relative": "scripts/backup.mjs",
+      "sha256": "cbe24643973fb2ab15e6e655239133ec34fe736664d4f526d8974bf886ad6ad9",
+      "bytes": 993
+    },
+    {
+      "source": "B",
+      "relative": "scripts/dev.mjs",
+      "sha256": "dcda8df96af5619f23e0df98f0afe972aaeaec24d718afbd5dad5c721f6dfa9b",
+      "bytes": 591
+    },
+    {
+      "source": "B",
+      "relative": "scripts/qa.mjs",
+      "sha256": "6876a49501ce7f6b18cfaddb68d272a1d6e3a7a47aa3686bb72fc73060cad66e",
+      "bytes": 16009
+    },
+    {
+      "source": "B",
+      "relative": "server/assistant.mjs",
+      "sha256": "d5c8ca71918ae6d0ac887b5f9cc11e3c5d2ea56c17bffa9d7264e46aaa13a10b",
+      "bytes": 3591
+    },
+    {
+      "source": "B",
+      "relative": "server/auth.mjs",
+      "sha256": "1fbc2e00477e4b8e3ef2ba5f840af351a9c74e3770e1569a8ff3921c2ee74046",
+      "bytes": 8096
+    },
+    {
+      "source": "B",
+      "relative": "server/backup.mjs",
+      "sha256": "d01e28bfbd15010e289cd2ca63f63f6dea1c37d0cc6dec1517414e77775db1da",
+      "bytes": 3732
+    },
+    {
+      "source": "B",
+      "relative": "server/config.mjs",
+      "sha256": "46dbaca625f222e7ae8c61259035616c8ae00274f63b541c04c3c7c6e1606375",
+      "bytes": 804
+    },
+    {
+      "source": "B",
+      "relative": "server/domain.mjs",
+      "sha256": "f1ea25de12f11071aa8171d977b63826ea2e513b2ca6114500af10e0593255f9",
+      "bytes": 13567
+    },
+    {
+      "source": "B",
+      "relative": "server/index.mjs",
+      "sha256": "3c89fc2ded2b476bb6215875abdcbc01d232ebd40be1a646fdce2bb31ef7d668",
+      "bytes": 14496
+    },
+    {
+      "source": "B",
+      "relative": "server/jev.mjs",
+      "sha256": "ad5856502bc06535c7e8417c43188f4d808ba831326da3f13a123469621db5db",
+      "bytes": 4360
+    },
+    {
+      "source": "B",
+      "relative": "server/notebook.mjs",
+      "sha256": "5e4441c262dd98d276b428e045496e3cb9391b20f7040b8ba024c411f9c811ea",
+      "bytes": 5144
+    },
+    {
+      "source": "B",
+      "relative": "server/seed.mjs",
+      "sha256": "1188291b4a401998c2957c5f718c36878355d48f39a89b98cf4ccea970337e8e",
+      "bytes": 4821
+    },
+    {
+      "source": "B",
+      "relative": "server/store.mjs",
+      "sha256": "f9a206bdd2bfe7a5aefad4ea48ec22a52bf4310e7afaec8327be70f762540a69",
+      "bytes": 1853
+    },
+    {
+      "source": "B",
+      "relative": "src/App.tsx",
+      "sha256": "b0106a3e86af3adcdd0120685bd60c2557fe40d4ee993c73b2eef6adba36cade",
+      "bytes": 11907
+    },
+    {
+      "source": "B",
+      "relative": "src/Auth.tsx",
+      "sha256": "9acbdf9d8715f451f2dd9ab8c42107b3091ab4d1cc1e18cd3155aa9994c7a568",
+      "bytes": 2934
+    },
+    {
+      "source": "B",
+      "relative": "src/Dashboard.tsx",
+      "sha256": "dc11a2fe686e6db6d0ef66cbf28eca6ef880076a1a0b93f26dbf3df3ca68313e",
+      "bytes": 8608
+    },
+    {
+      "source": "B",
+      "relative": "src/Experiments.tsx",
+      "sha256": "e46fc78d8157d8bf72842ce2436313a8ba2d999a21f4f26e8d2f37fae3ef7db6",
+      "bytes": 10968
+    },
+    {
+      "source": "B",
+      "relative": "src/Forms.tsx",
+      "sha256": "efd70cbb912bfe9d1d72d3c940d78865558ff40b385d5a2e58ee16d389f7e9f6",
+      "bytes": 11930
+    },
+    {
+      "source": "B",
+      "relative": "src/Handover.tsx",
+      "sha256": "062ea4c1d725824735b5d7663b5300c3ab40e7db92032c24fe70ae3b43db6096",
+      "bytes": 3947
+    },
+    {
+      "source": "B",
+      "relative": "src/Notebook.tsx",
+      "sha256": "5496f103407838dc1c40699ac0322c8e1ebc2cf4c150dd88414a864c727b7947",
+      "bytes": 18271
+    },
+    {
+      "source": "B",
+      "relative": "src/Notes.tsx",
+      "sha256": "25f5f1ecdc565ebb16dfcfaa34f35ccd5cd96a4d32420302cd267296b1ad342a",
+      "bytes": 4536
+    },
+    {
+      "source": "B",
+      "relative": "src/Resources.tsx",
+      "sha256": "a2e3e65aa19abb021595f8d972877a07bf43b9b96eeff022a4f5e0f7c131794c",
+      "bytes": 5404
+    },
+    {
+      "source": "B",
+      "relative": "src/Settings.tsx",
+      "sha256": "9c909a420bbceab5ca65dcca8e5236c3622de165cda97a7d8e640011fdcc046a",
+      "bytes": 10217
+    },
+    {
+      "source": "B",
+      "relative": "src/components.tsx",
+      "sha256": "c10300d8de733ebdfa7b3db7df51ef4714a34c2c2876bf9d71df9be7062181b1",
+      "bytes": 4280
+    },
+    {
+      "source": "B",
+      "relative": "src/context.ts",
+      "sha256": "ac0353fb8fbce3482c33bc1a72b28942ee63d18011fd7c84e7979aeadf637021",
+      "bytes": 884
+    },
+    {
+      "source": "B",
+      "relative": "src/lib.ts",
+      "sha256": "c5a37f1628031d5e1d4a2b7d31342ab98d4b2f5cf5bf4536122b33d1d7ef5b03",
+      "bytes": 2039
+    },
+    {
+      "source": "B",
+      "relative": "src/main.tsx",
+      "sha256": "d0cdcb868031acfc95a48fb42b5858a6709990f1f623d6596b27d66935649433",
+      "bytes": 682
+    },
+    {
+      "source": "B",
+      "relative": "src/styles.css",
+      "sha256": "b9a03d582d1645ac9b0428afae125e24a2b378e1129ac9cb7f2b5b4bf5bd7a52",
+      "bytes": 58839
+    },
+    {
+      "source": "B",
+      "relative": "src/types.ts",
+      "sha256": "45313cadbdbab475b61447f2879f97c8ce7a93494047ede3b788e768181c595f",
+      "bytes": 3641
+    },
+    {
+      "source": "B",
+      "relative": "tests/team-notebook.test.mjs",
+      "sha256": "2a1f3ac95f76bb8ed2c9ea5b3d8bf412a1328b240855b8b17ca94a3988a96830",
+      "bytes": 13124
+    },
+    {
+      "source": "B",
+      "relative": "tests/workflows.test.mjs",
+      "sha256": "5a47a92452d3531ffd6466d8b396bb1a4fd4f85a10ed515b4d46af22bd093832",
+      "bytes": 6428
+    },
+    {
+      "source": "B",
+      "relative": "tsconfig.json",
+      "sha256": "cddecd8ce0b94779598ccb097953d25f8baf5e903e3b4761db18041d33bb9c3e",
+      "bytes": 372
+    },
+    {
+      "source": "B",
+      "relative": "vite.config.ts",
+      "sha256": "98cfcef21eb939c6a3c9f2011139ccd831762d77950c7526f4f57721e142cfcb",
+      "bytes": 271
+    }
+  ]
+}

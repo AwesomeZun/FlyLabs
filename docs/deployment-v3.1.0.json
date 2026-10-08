@@ -1,0 +1,21 @@
+{
+  "version": "3.1.0",
+  "url": "https://flylabs-research.vercel.app",
+  "deploymentId": "dpl_D3T3L8MvAref4VEZVXUMZ4b8oyTf",
+  "mode": "browser-local-public-demo",
+  "externalAI": false,
+  "openShellSandbox": false,
+  "checks": {
+    "domainServer": 27,
+    "serverBrowserSimulatedAI": 17,
+    "localDemo": 10,
+    "productionDemo": 10
+  },
+  "sha256": {
+    "index.html": "19caeae24e064c236d31806fef671e1d0b9f872feadba1e8a0b3db928a90e30f",
+    "vercel.json": "3c4861a556ef8552f8bbb47bd964a7061a4067fb29e6bc15f728148314f25322",
+    "assets/index-B_C-n91s.js": "9511a4eef3e93b047dcc29bab5790e331bef648b4bfb1a84f267db39bd5e447f",
+    "assets/index-4iub2-Mz.css": "cf55db9666b4d6d3c7c01d13a041907575d11308b647ac5108a96742761330bc",
+    "assets/demo-api-DW_KcDJf.js": "082c92b7a24cc5ae3ced058f8e2ca89680c930bc284a103cad3cc7dfa2c505c6"
+  }
+}
