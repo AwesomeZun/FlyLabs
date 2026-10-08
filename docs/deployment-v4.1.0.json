@@ -1,0 +1,27 @@
+{
+  "version": "4.1.0",
+  "url": "https://flylabs-research.vercel.app",
+  "deploymentId": "dpl_acoKe5fAAKgwjmU2r9XwjQz48haJ",
+  "deployedAt": "2026-10-08T18:31:46.587Z",
+  "mode": "browser-local-public-demo",
+  "externalAI": false,
+  "openShellSandbox": false,
+  "checks": {
+    "domainServer": 27,
+    "serverBrowserSimulatedAI": 17,
+    "localDemo": 11,
+    "productionDemo": 11
+  },
+  "sha256": {
+    "index.html": "044f39938b1c435dbd768952b899435b7203209688740c354c905ebeb90f6d38",
+    "vercel.json": "3c4861a556ef8552f8bbb47bd964a7061a4067fb29e6bc15f728148314f25322",
+    "assets/demo-api-D6_5WyQr.js": "d02cc1f63e8fa0068899fcdf05989f9dc4600780d98e5436572e428eb00a8826",
+    "assets/index-CG9fkWjF.css": "1c91337286e892aeca5d6eec9bef11dc94eceedf1f97b7effd98a0a6e8bde113",
+    "assets/index-CIYphaf4.js": "52fc9a550c9b2db3e105ca866a056a566f10be73ec5669b5ebabbf9ee68a50f6"
+  },
+  "fonts": {
+    "family": "Pretendard Variable (dynamic subset, self-hosted)",
+    "files": 92,
+    "manifestSha256": "06d0c54e30e85051ba86ae0bc6a17baff57d4f1b945dc7830a4002e59b137e42"
+  }
+}

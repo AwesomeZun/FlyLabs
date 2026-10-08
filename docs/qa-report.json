@@ -1,6 +1,6 @@
 {
-  "version": "4.0.0",
-  "generatedAt": "2026-10-08T17:50:31.898Z",
+  "version": "4.1.0",
+  "generatedAt": "2026-10-08T18:02:38.307Z",
   "checks": [
     "authentication gate and first account onboarding",
     "create an experiment notebook",

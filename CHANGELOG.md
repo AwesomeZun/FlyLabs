@@ -1,5 +1,14 @@
 # Changelog
 
+## v4.1.0 — 2026-10-08
+
+- Refocused the research workspace on a single reading order: project title (click to switch), a four-segment progress bar, one "what to do now" card, then quiet source and record lists.
+- The focus card shows only the conditions that differ or need checking, with values linked to their source lines; matching conditions collapse into one line, including unit-normalized matches.
+- Removed the dark hero, animated connectome, purple action tile, match donut and lab-status tiles from the dashboard; the connectome remains on the routing screen and lab status links to Today.
+- Calmer shell: accent-tinted active navigation, outlined presentation button, and the Korean tagline under the logo. The Today banner uses the same light focus style.
+- Mobile menu drawer now stays within the screen height so the account controls remain reachable.
+- Deployed to https://flylabs-research.vercel.app (deployment `dpl_acoKe5fAAKgwjmU2r9XwjQz48haJ`). Verified: 27 domain/server tests, 17 server browser scenarios, and 11 public-demo scenarios locally and against the live URL.
+
 ## v4.0.0 — 2026-10-08
 
 - Redesigned the whole interface: light floating sidebar grouped into research flow and lab operations, a command bar with storage status, `⌘K` / `/` search and a presentation-mode button, and a new visual system bundled with the Pretendard font.
