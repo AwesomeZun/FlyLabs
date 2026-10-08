@@ -1,9 +1,10 @@
 {
-  "version": "3.1.0",
-  "url": "http://127.0.0.1:4220",
-  "at": "2026-10-08T13:49:37.100Z",
+  "version": "4.0.0",
+  "url": "http://127.0.0.1:4230",
+  "at": "2026-10-08T17:51:13.537Z",
   "checks": [
     "public onboarding and synthetic examples across four research types",
+    "dashboard leads with differences and presentation mode walks the flow",
     "source comparison, missing values, real execution trace",
     "computational research compares data splits and preserves missing seed",
     "preparation preserves source and starts notebook",

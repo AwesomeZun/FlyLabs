@@ -1,9 +1,10 @@
 {
-  "version": "3.1.0",
+  "version": "4.0.0",
   "url": "https://flylabs-research.vercel.app",
-  "at": "2026-10-08T13:51:09.798Z",
+  "at": "2026-10-08T17:53:18.164Z",
   "checks": [
     "public onboarding and synthetic examples across four research types",
+    "dashboard leads with differences and presentation mode walks the flow",
     "source comparison, missing values, real execution trace",
     "computational research compares data splits and preserves missing seed",
     "preparation preserves source and starts notebook",

@@ -1,6 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
+import 'pretendard/dist/web/variable/pretendardvariable-dynamic-subset.css';
 import './styles.css';
 class ErrorBoundary extends React.Component<React.PropsWithChildren, {error:boolean}> {
   state={error:false};
@@ -10,3 +11,6 @@ class ErrorBoundary extends React.Component<React.PropsWithChildren, {error:bool
 createRoot(document.getElementById('root')!).render(<React.StrictMode><ErrorBoundary><App/></ErrorBoundary></React.StrictMode>);
 
 import './evidence.css';
+// v4.0.0: 가독성 하한과 디자인 시스템은 기존 스타일보다 뒤에 와야 하므로 evidence.css 다음에 불러옵니다.
+import './readability.css';
+import './refresh.css';
