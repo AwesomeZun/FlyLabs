@@ -11,4 +11,4 @@ export function loadProviderSettings(file=process.env.FLYLABS_ENV_FILE) {
   }
 }
 loadProviderSettings();
-export const VERSION='5.1.0';
+export const VERSION='5.2.0';

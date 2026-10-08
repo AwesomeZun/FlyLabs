@@ -1,5 +1,12 @@
 # Changelog
 
+## v5.2.0 — 2026-10-08
+
+- Workspace home now leads with one finding: a context line ("실험 기록 2개를 비교했어요"), the most important difference as the headline ("처리 시간이 달라요"), the compared values side by side in large type (each opens its source line), one sentence on why it matters and one primary action.
+- Fixed four-level type hierarchy (context, headline, values, explanation); remaining issues and matching conditions collapse into one link line under the action.
+- Shorter notice and tour copy; library cards hide provenance text and show one description line; preparation checks keep the source link inline.
+- Deployed to https://flylabs-research.vercel.app (deployment `dpl_DzYnrhqM43tqHwQGerGu6voddcxf`). Verified: 27 domain/server tests, 17 server browser scenarios, and 11 public-demo scenarios locally and against the live URL.
+
 ## v5.1.0 — 2026-10-08
 
 - First-time context on the workspace home: the project goal, what was done ("실험 기록 2개를 같은 기준으로 맞춰 봤어요"), a plain summary of matching and differing conditions, and the compared records labelled A and B.
