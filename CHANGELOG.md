@@ -1,5 +1,12 @@
 # Changelog
 
+## v5.1.0 — 2026-10-08
+
+- First-time context on the workspace home: the project goal, what was done ("실험 기록 2개를 같은 기준으로 맞춰 봤어요"), a plain summary of matching and differing conditions, and the compared records labelled A and B.
+- Each difference is written as a concrete sentence ("처리 시간이 달라요", "반복 측정이 한쪽 기록에만 적혀 있어요") with A/B values, followed by why it matters and the list of matching conditions.
+- Primary action renamed to "두 기록 나란히 보기"; the notice now explains what the tool does; presentation copy updated.
+- Deployed to https://flylabs-research.vercel.app (deployment `dpl_7cvHcnJwethDsBsnGHF4xAM5tdSm`). Verified: 27 domain/server tests, 17 server browser scenarios, and 11 public-demo scenarios locally and against the live URL.
+
 ## v5.0.0 — 2026-10-08
 
 - Rebuilt the research workspace around one sentence and one action, inspired by Toss's public product principles (one thing per page, understand in a second, action-revealing copy): a status headline such as "조건 2개가 서로 달라요", only the differing conditions, one line for the matching ones, a single primary button, then the source checklist.

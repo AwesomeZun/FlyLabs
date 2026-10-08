@@ -1,7 +1,7 @@
 {
-  "version": "5.0.0",
+  "version": "5.1.0",
   "url": "https://flylabs-research.vercel.app",
-  "at": "2026-10-08T19:02:09.622Z",
+  "at": "2026-10-08T21:13:33.091Z",
   "checks": [
     "public onboarding and synthetic examples across four research types",
     "dashboard leads with differences and presentation mode walks the flow",

@@ -1,7 +1,7 @@
 {
-  "version": "5.0.0",
+  "version": "5.1.0",
   "url": "http://127.0.0.1:4230",
-  "at": "2026-10-08T19:01:23.423Z",
+  "at": "2026-10-08T21:12:56.059Z",
   "checks": [
     "public onboarding and synthetic examples across four research types",
     "dashboard leads with differences and presentation mode walks the flow",

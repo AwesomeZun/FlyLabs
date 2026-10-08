@@ -11,6 +11,6 @@ class ErrorBoundary extends React.Component<React.PropsWithChildren, {error:bool
 createRoot(document.getElementById('root')!).render(<React.StrictMode><ErrorBoundary><App/></ErrorBoundary></React.StrictMode>);
 
 import './evidence.css';
-// v5.0.0: 가독성 하한과 디자인 시스템은 기존 스타일보다 뒤에 와야 하므로 evidence.css 다음에 불러옵니다.
+// v5.1.0: 가독성 하한과 디자인 시스템은 기존 스타일보다 뒤에 와야 하므로 evidence.css 다음에 불러옵니다.
 import './readability.css';
 import './refresh.css';

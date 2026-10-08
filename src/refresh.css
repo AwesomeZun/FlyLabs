@@ -1,4 +1,4 @@
-/* FlyLabs v5.0.0 디자인 시스템
+/* FlyLabs v5.1.0 디자인 시스템
    styles.css·evidence.css·readability.css 뒤에 불러와 공통 토큰, 앱 셸, 벤토 대시보드, 시연 모드를 정의합니다.
    상태색(일치·차이·확인 필요·충돌)은 항상 아이콘과 글자를 함께 표시하고, 색만으로 의미를 전달하지 않습니다. */
 
@@ -182,18 +182,26 @@ input,select,textarea{border-color:#dcdfe8;border-radius:10px}
 .th-desc{font-size:18px;line-height:1.6;color:var(--muted);margin-top:12px}
 .th-diff{list-style:none;margin:36px 0 0;padding:0;background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden}
 .th-diff li+li{border-top:1px solid var(--line-soft)}
-.th-diff button{display:grid;grid-template-columns:minmax(0,auto) minmax(0,1fr) auto;align-items:center;gap:16px;width:100%;padding:20px 22px;text-align:left;transition:background .15s}
+.th-diff button{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:16px;width:100%;padding:20px 20px 20px 22px;text-align:left;transition:background .15s}
 .th-diff button:hover{background:#fafaff}
-.th-diff-label{font-size:17px;font-weight:700;color:var(--ink)}
-.th-diff-values{font-size:17px;font-weight:600;color:var(--ink-2);text-align:right;overflow-wrap:anywhere}
-.th-tag{display:inline-flex;align-items:center;gap:4px;padding:4px 10px 4px 8px;border-radius:999px;font-size:13.5px;font-weight:750;white-space:nowrap}
-.th-tag .icon{font-size:15px;width:15px}
-.th-tag .icon svg{stroke-width:2.4}
-.th-tag.different{background:var(--serious-bg);color:var(--serious-ink)}
-.th-tag.missing{background:var(--warn-bg);color:var(--warn-ink)}
-.th-tag.conflict{background:var(--critical-bg);color:var(--critical-ink)}
-.th-same{display:flex;align-items:center;gap:6px;margin:14px 0 0 4px;font-size:15px;color:var(--muted)}
-.th-same .icon{font-size:17px;width:17px;color:var(--good)}
+.th-diff button>.icon{font-size:18px;width:18px;color:var(--faint)}
+.th-mark{display:grid;place-items:center;width:36px;height:36px;border-radius:50%}
+.th-mark .icon{font-size:19px;width:19px}
+.th-mark .icon svg{stroke-width:2.4}
+.th-mark.different{background:var(--serious-bg);color:var(--serious-ink)}
+.th-mark.missing{background:var(--warn-bg);color:var(--warn-ink)}
+.th-mark.conflict{background:var(--critical-bg);color:var(--critical-ink)}
+.th-issue{display:flex;flex-direction:column;gap:8px;min-width:0}
+.th-issue>b{font-size:18px;font-weight:750;letter-spacing:-.02em;color:var(--ink)}
+.th-vals{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:15.5px;font-weight:600;color:var(--ink-2)}
+.th-vals>span{display:inline-flex;align-items:center;gap:7px}
+.th-vals>span.is-empty{color:var(--muted);font-weight:500}
+.th-why{margin:14px 4px 0;font-size:15px;line-height:1.6;color:var(--ink-2)}
+.th-list-label{margin:32px 0 -24px;font-size:15px;font-weight:700;color:var(--ink-2)}
+.th-docs-hint{margin:0 0 4px;font-size:14.5px;color:var(--muted)}
+.th-docs li .doc-letter{flex-shrink:0}
+.th-same{display:flex;align-items:flex-start;gap:6px;margin:10px 0 0 4px;font-size:15px;line-height:1.6;color:var(--muted)}
+.th-same .icon{font-size:17px;width:17px;margin-top:3px;flex-shrink:0;color:var(--good)}
 .th-same .icon svg{stroke-width:2.6}
 .button.th-cta{display:flex;width:100%;min-height:58px;margin-top:32px;border-radius:16px;font-size:17.5px;font-weight:750}
 .th-docs{margin-top:72px}
@@ -286,9 +294,8 @@ input,select,textarea{border-color:#dcdfe8;border-radius:10px}
   .th-title{font-size:30px}
   .th-desc{font-size:16.5px}
   .th-diff{margin-top:28px}
-  .th-diff button{grid-template-columns:minmax(0,1fr) auto;gap:6px 12px;padding:18px}
-  .th-diff-values{grid-column:1/-1;grid-row:2;text-align:left;font-size:16px}
-  .th-tag{grid-column:2;grid-row:1}
+  .th-diff button{gap:12px;padding:18px 14px 18px 16px}
+  .th-issue>b{font-size:17px}
   .th-docs{margin-top:56px}
   .page-heading h1{font-size:26px}
   .page-heading p{font-size:15px}
@@ -435,3 +442,13 @@ input,select,textarea{border-color:#dcdfe8;border-radius:10px}
 .preparation-preview>summary::after{content:' ▾';color:var(--faint)}
 .preparation-preview[open]>summary{border-bottom:1px solid var(--line-soft)}
 .preview-actions{display:flex;justify-content:flex-end;padding:10px 14px 0}
+/* v5.1.0: 목표와 비교한 기록을 제목 가까이에 둡니다. */
+.th-goal{display:flex;gap:10px;align-items:baseline;margin:0 0 28px;font-size:15.5px;line-height:1.6;color:var(--ink-2)}
+.th-goal>span{flex-shrink:0;font-size:13px;font-weight:750;color:var(--accent-ink);background:var(--accent-soft);border-radius:999px;padding:1px 10px}
+.th-bar{margin-bottom:20px}
+.th-compared{list-style:none;margin:18px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+.th-compared li{display:inline-flex;align-items:center;gap:8px;max-width:100%;padding:6px 14px 6px 8px;border-radius:999px;background:#fff;border:1px solid var(--line);font-size:14.5px;color:var(--muted)}
+.th-compared button{font-size:14.5px;font-weight:650;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left}
+.th-compared button:hover{color:var(--accent-ink)}
+.th-diff{margin-top:24px}
+@media(max-width:680px){.th-goal{flex-direction:column;gap:6px;margin-bottom:22px;font-size:15px}.th-compared li{width:100%}}

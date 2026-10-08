@@ -2,7 +2,7 @@ import { useEffect, useRef, useId, Children, cloneElement, isValidElement, type 
 import type { Member, Status } from './types';
 import { STATUS } from './types';
 
-// v5.0.0: 유니코드 기호 대신 같은 굵기의 선형 SVG 아이콘을 씁니다. 등록되지 않은 이름은 글자 그대로 표시합니다.
+// v5.1.0: 유니코드 기호 대신 같은 굵기의 선형 SVG 아이콘을 씁니다. 등록되지 않은 이름은 글자 그대로 표시합니다.
 const icons:Record<string,string>={
   home:'<rect x="3" y="3" width="7.5" height="9" rx="1.6"/><rect x="13.5" y="3" width="7.5" height="5.5" rx="1.6"/><rect x="13.5" y="11.5" width="7.5" height="9.5" rx="1.6"/><rect x="3" y="15" width="7.5" height="6" rx="1.6"/>',
   library:'<path d="M5 19.5V5.2A2.2 2.2 0 0 1 7.2 3H19v14.5H7.2A2.2 2.2 0 0 0 5 19.7"/><path d="M5 19.5A1.8 1.8 0 0 0 6.8 21.3H19V17.5"/><path d="M9.5 7.5h5.5"/>',
