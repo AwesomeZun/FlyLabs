@@ -1,5 +1,14 @@
 # Changelog
 
+## v5.0.0 — 2026-10-08
+
+- Rebuilt the research workspace around one sentence and one action, inspired by Toss's public product principles (one thing per page, understand in a second, action-revealing copy): a status headline such as "조건 2개가 서로 달라요", only the differing conditions, one line for the matching ones, a single primary button, then the source checklist.
+- Headline, description and primary action change with the current step (add sources → pick sources → check differences → make a preparation → start the notebook).
+- Removed English eyebrows, decorative dots, stacked header bars, metric chips and long notes across comparison, preparation and routing screens; run options, the preparation preview and the method explanation are now collapsible.
+- Shell: flat white sidebar without step numbers, storage status moved under the navigation, top bar reduced to search and presentation mode, one-line notice.
+- Presentation mode copy shortened to one sentence per screen.
+- Deployed to https://flylabs-research.vercel.app (deployment `dpl_FnWAaMsTTXZtzfsydhrRWz2PMLh4`). Verified: 27 domain/server tests, 17 server browser scenarios, and 11 public-demo scenarios locally and against the live URL.
+
 ## v4.1.0 — 2026-10-08
 
 - Refocused the research workspace on a single reading order: project title (click to switch), a four-segment progress bar, one "what to do now" card, then quiet source and record lists.

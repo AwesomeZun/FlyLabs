@@ -35,7 +35,7 @@ async function transact(fn){const db=await database();return new Promise((resolv
 });}
 export async function demoApi(path,options={}){
  const url=new URL(path,'https://local.invalid'),parts=url.pathname.split('/').filter(Boolean),method=options.method||'GET',p=options.body?JSON.parse(options.body):{};
- if(path==='/health')return {ok:true,version:'4.1.0',mode:'browser-demo',storage:'IndexedDB',jevConfigured:false,geminiConfigured:false,model:'외부 AI 미연결',generationModel:'외부 AI 미연결'};
+ if(path==='/health')return {ok:true,version:'5.0.0',mode:'browser-demo',storage:'IndexedDB',jevConfigured:false,geminiConfigured:false,model:'외부 AI 미연결',generationModel:'외부 AI 미연결'};
  if(path==='/auth/me')return {user:USER};
  if(path==='/connectome')return graph;
  if(parts[0]==='literature')throw new Error('공개 체험판에서는 검색 대신 논문 초록을 복사해 자료로 등록해 주세요.');
